@@ -1,4 +1,4 @@
-# material-you-samples
+# Material You Sample
 Material You interface with dynamic theme support for your Android projects
 
 ## Requirements
