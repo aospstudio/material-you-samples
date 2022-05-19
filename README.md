@@ -19,6 +19,13 @@ Splash screen (under 12.0)
 Dark mode
 ```
 
+## Themes
+```bash
+@style/BaseTheme (Main Theme)
+@style/BaseTheme.Splash (Splash Theme)
+@style/BaseTheme.Settings (Settings & Other Theme)
+```
+
 ## Monochrome icon
 Create an svg icon named ic_launcher_monochrome.xml and add it to res>drawable directory.
 To enable Monochrome icon on Android 12 and above, add the following line to the path res>mipmap-anydpi-v26>ic_launcher.xml
