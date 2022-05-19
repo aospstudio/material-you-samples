@@ -21,9 +21,9 @@ Dark mode
 
 ## Themes
 ```bash
-@style/BaseTheme (Main Theme)
-@style/BaseTheme.Splash (Splash Theme)
-@style/BaseTheme.Settings (Settings & Other Theme)
+"@style/BaseTheme" (Main Application Theme)
+"@style/BaseTheme.Splash" (Splash Screen Theme)
+"@style/BaseTheme.Settings" (Settings and Other Pages Theme)
 ```
 
 ## Monochrome icon
