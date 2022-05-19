@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Toolbar</item>
+    </style>
+
+    <style name="Widget.App.ToolbarSettings" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/md_theme_surface</item>
+    </style>
+
+    <style name="Widget.App.ToolbarSettings.Dark" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/md_theme_surface</item>
+    </style>
+
+    <style name="Widget.App.Switch" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+        <item name="track">@drawable/switch_track</item>
+        <item name="trackTintMode">src_over</item>
+        <item name="android:thumb">@drawable/switch_thumb</item>
+    </style>
+
+    <style name="Widget.App.Slider" parent="Widget.Material3.Slider">
+        <item name="trackHeight">30dp</item>
+        <item name="thumbRadius">10dp</item>
+    </style>
+</resources>
