@@ -34,7 +34,7 @@ To enable Monochrome icon on Android 12 and above, add the following line to the
 <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
 ```
 
-## Screenshoots
+## Screenshots
 <img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss1.png" width="45%"></img> <img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss2.png" width="45%"></img> <img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss3.png" width="45%"></img>
 
 ## License
