@@ -3,10 +3,10 @@ Material You interface with dynamic theme support for your Android projects
 
 ## Requirements
 ```bash
-Android Studio Chipmunk 2021.2.1 or higher,
-Gradle version: 7.2.0,
-SDK API 32,
-Platform Tools: 33.0.0 rc04,
+Android Studio Electric Eel 2022.1.1 Patch 2 or higher,
+Gradle version: 8.0.2,
+SDK API 33,
+Platform Tools: 34.0.0 rc03,
 AndroidX libraries,
 Kotlin
 ```
@@ -35,7 +35,7 @@ To enable Monochrome icon on Android 12 and above, add the following line to the
 ```
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss1.png" width="45%"></img> <img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss2.png" width="45%"></img> <img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/ss3.png" width="45%"></img>
+<img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/materialyou.png" width="45%">
 
 ## License
 [Apache 2.0](https://github.com/aospstudio/material-you-samples/blob/main/LICENSE)

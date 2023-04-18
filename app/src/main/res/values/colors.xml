@@ -27,8 +27,6 @@
     <color name="md_theme_inverseOnSurface">#F1F0F4</color>
     <color name="md_theme_inverseSurface">#2F3033</color>
     <color name="md_theme_primaryInverse">#9FC9FF</color>
-    <color name="seed">#0096FF</color>
-    <color name="error">#BA1B1B</color>
     <color name="md_theme_seed">@color/md_theme_primary</color>
     <color name="md_theme_seedContainer">@color/md_theme_primaryContainer</color>
     <color name="black">#FF000000</color>
@@ -36,8 +34,4 @@
     <color name="transparent">@android:color/transparent</color>
     <color name="text">#FF000000</color>
     <color name="text_secondary">#FF323232</color>
-    <color name="card">#FAFAFA</color>
-    <color name="stroke">#FFEEEEEE</color>
-    <color name="secured">#66BB6A</color>
-    <color name="not_secured">#EF5350</color>
 </resources>

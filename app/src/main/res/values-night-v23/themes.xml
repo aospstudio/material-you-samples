@@ -3,6 +3,7 @@
     <style name="AppTheme.Base" parent="Theme.Material3.DynamicColors.DayNight">
         <item name="android:windowActivityTransitions">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <item name="elevationOverlayEnabled">true</item>
         <item name="elevationOverlayColor">@color/md_theme_primary</item>

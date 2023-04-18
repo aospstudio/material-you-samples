@@ -1,22 +1,35 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="BaseTheme.Splash" parent="BaseTheme">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@drawable/activity_splash_drawable</item>
+        <item name="postSplashScreenTheme">@style/BaseTheme</item>
+    </style>
+
+    <style name="BaseTheme.Hamburger" parent="BaseTheme" />
+
+    <style name="BaseTheme.BottomNav" parent="BaseTheme" />
+
+    <style name="BaseTheme.Settings" parent="BaseTheme">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
     </style>
 
     <style name="BaseTheme" parent="AppTheme">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
 
-    <style name="BaseTheme.Settings" parent="AppTheme">
-        <item name="android:statusBarColor">@color/md_theme_surface</item>
-        <item name="android:navigationBarColor">@color/md_theme_background</item>
-        <item name="toolbarStyle">@style/Widget.App.ToolbarSettings</item>
+    <style name="BaseTheme.Plus" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
     </style>
 
     <style name="AppTheme" parent="AppTheme.Base">
@@ -67,16 +80,11 @@
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Material3.LargeComponent</item>
     </style>
 
-    <style name="AppTheme.Base" parent="Theme.Material3.DayNight">
+    <style name="AppTheme.Base" parent="Theme.Material3.DynamicColors.DayNight">
         <item name="android:windowActivityTransitions">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:windowLightStatusBar">?android:isLightTheme</item>
-        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">?android:isLightTheme</item>
         <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
         <item name="elevationOverlayEnabled">true</item>
         <item name="elevationOverlayColor">@color/md_theme_primary</item>
-        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
-        <item name="switchStyle">@style/Widget.App.Switch</item>
-        <item name="sliderStyle">@style/Widget.App.Slider</item>
     </style>
 </resources>
