@@ -4,7 +4,7 @@ Material You interface with dynamic theme support for your Android projects
 ## Requirements
 ```bash
 Android Studio Electric Eel 2022.1.1 Patch 2 or higher,
-Gradle version: 8.0.2,
+Gradle version: 8.1,
 SDK API 33,
 Platform Tools: 34.0.0 rc03,
 AndroidX libraries,
