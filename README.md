@@ -35,7 +35,7 @@ To enable Monochrome icon on Android 12 and above, add the following line to the
 ```
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/materialyou.png" width="45%">
+<img src="https://raw.githubusercontent.com/aospstudio/material-you-samples/main/screenshots/materialyou.png" width="90%">
 
 ## License
 [Apache 2.0](https://github.com/aospstudio/material-you-samples/blob/main/LICENSE)
